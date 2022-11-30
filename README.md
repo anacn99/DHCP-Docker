@@ -15,6 +15,6 @@ Dentro de /data, creamos el archivo de configuración y modificamos la subnet co
 
 ![dhcpconf](dhcpconf.png)
 
-Una vez configurados todos los archivos pertinentes simplemente levantamos el contedor, docker-compose up y vemos que funiocna correctamente:
+Una vez configurados todos los archivos pertinentes simplemente levantamos el contedor, docker-compose up y vemos que funciona correctamente:
 
 ![levantardhcp](levantardhcp.png)
