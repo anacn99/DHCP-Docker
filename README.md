@@ -15,9 +15,10 @@ Dentro de /data, creamos el archivo de configuración y modificamos la subnet co
 
 ![dhcpconf](imagen_2022-12-15_114937357.png)
 
-Com el tipo de red está en host el contenedor tendrá la IP dk¡el equipo principal con el que estamos trabajando, que en este caso está en 10.0.9.1.
+Com el tipo de red está en host el contenedor tendrá la IP del equipo principal con el que estamos trabajando, que en este caso está en 10.0.9.1.
 
-Para configurar l ainterfaz de escucha del tráfico de DHCP,solo hay que añadir el apartado "args: InterfaceName". Esto es para hacerlo directamente desde el docker-compose.
+Para configurar la interfaz de escucha del tráfico de DHCP,añadimos el apartado args: -NombreInterfaz. Esto lo hacemos directamente en el docker-compose.
+
   args: enp1s0
   
 También vemos en el archivo que le estamos dando un rango de IP al servidfor DHCP para que asigne dentro de ese rango.
