@@ -29,7 +29,7 @@ Por último y para que todo funcione correctamente debemos configurar en el arch
    default-lease-time 500000;
     max-lease-time 10000000;
 
-    host asir_client {
+    host apache {
         hardware ethernet 08:00:27:6F:AD:EF;
         fixed-address 10.0.9.42;
     } 
