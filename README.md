@@ -13,7 +13,7 @@ Debemos crear una carpeta data, que contendrá dentro el archivo de configuraci�
 
 Dentro de /data, creamos el archivo de configuración y modificamos la subnet conforme corresponde como vemos en la siguiente imagen:
 
-![dhcpconf](dhcpconf.png)
+![dhcpconf](imagen_2022-12-15_114937357.png)
 
 Una vez configurados todos los archivos pertinentes simplemente levantamos el contedor, docker-compose up y vemos que funciona correctamente:
 
